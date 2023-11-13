@@ -4,7 +4,9 @@
 
 ## Overview
 
-This project deploys AWS infrastructure using Terraform to create a *modularized architecture 
+This project deploys AWS infrastructure using Terraform to create a modularized architecture 
+<img width="693" alt="image" src="https://github.com/lsssantbox/terraform/assets/150734965/f0c929de-79d0-434f-9f80-e2828041c40a">
+
 
 ## Important
 This project utilizes Terraform to orchestrate AWS infrastructure, emphasizing a modularized architecture. However, for a demo, the project intentionally embraces simplicity, acknowledging a few notable considerations:
@@ -20,8 +22,6 @@ This project utilizes Terraform to orchestrate AWS infrastructure, emphasizing a
 5. **Terragrunt Consideration:** In a real-world scenario, [Terragrunt](https://terragrunt.gruntwork.io/docs/getting-started/quick-start/#introduction) would be a preferred choice for its ability to make the code DRY (Don't Repeat Yourself) and introduce additional functionalities on top of Terraform.
 
 6. **Bastion Host Replacement:** The proposed scenario follows a traditional bastion host approach. However, in a practical setting, I recommend replacing it with Session Manager, an Amazon-recommended technology. More details on the benefits can be found [here](https://aws.amazon.com/blogs/mt/replacing-a-bastion-host-with-amazon-ec2-systems-manager/).
-
-7. **Open for Discussion:** I am open to discussing any details and points raised in this list.
 
 
 ## Modules
@@ -133,9 +133,5 @@ To deploy the infrastructure, follow these steps:
 ## Clean Up
 
 To tear down the infrastructure, run `terraform destroy` in each module directory.
-
-## Contributors
-
-- Lucas Sant' Anna
 
 ---
