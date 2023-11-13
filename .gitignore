@@ -1,0 +1,26 @@
+# .gitignore for Terraform
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore override files as they are usually used to override resources locally and do not need to be pushed to remote
+override.tf
+override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore .tfvars files that are automatically generated
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Ignore crash log files
+crash.log
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore .idea directory for JetBrains IDE
+.idea/
