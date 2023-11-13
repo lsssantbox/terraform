@@ -21,6 +21,3 @@ crash.log
 
 # Ignore .terraform directory
 .terraform/
-
-# Ignore .idea directory for JetBrains IDE
-.idea/
